@@ -91,96 +91,51 @@ border-radius: 2px;
     </nav>
 	</header>
 <br>
-
-    <!-- Accordion Heading One -->
-    <div class="parent-tab">
-      <input type="radio" name="tab" id="tab-1" checked>
-      <label for="tab-1">
-        <span class="fontsforweb_fontid_1412"> Slime Skywars Turnir  <img src="img/slimewars.png" width="9%" height="9%" style="
-      /*  background-color:#33383b; */
-        width: 50px;
-        height: 50px;
-        border-radius: 10%;
-        text-align: left;
-        margin: 0;
-    	padding: 6px 6px;
-        vertical-align: middle;
-        "></span>
-        <div class="icon"><i class="fas fa-plus"></i></div>
-      </label>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
-      </div>
+	<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Slimewars tournament
+        </button>
+      </h5>
     </div>
 
-    <!-- Accordion Heading Two -->
-    <div class="parent-tab">
-      <input type="radio" name="tab" id="tab-2">
-      <label for="tab-2">
-        <span class="fontsforweb_fontid_1412"> Bedwars Doubles Turnir  <img src="img/bed.png" style="
-      /*  background-color:#33383b; */
-        width: 50px;
-        height: 50px;
-        	border-radius: 10%;
-        	text-align: center;
-        	margin: 0;
-			padding: 6px 6px;
-          vertical-align: middle;" width="3%" height="3%"></span>
-        <div class="icon"><i class="fas fa-plus"></i></div>
-      </label>
-      <div class="content">
-        <p>Udeleženci: 12</p>
-        <p>Datum: 6. Januar 2021</p>
-        <p>Zmagovalec: <b>DogPlays8</b></p>
-          <p><a href="turnir1.html">Več tukaj</a></p>
-      </div>
-    </div>
-
-    <!-- Accordion Heading Three -->
-    <div class="parent-tab tab-3">
-      <input type="radio" name="tab" id="tab-3">
-      <label for="tab-3" class="tab-3">
-        <span>Accordion Heading Three</span>
-        <div class="icon"><i class="fas fa-plus"></i></div>
-      </label>
-      <div class="content">
-        <!-- Sub Heading One -->
-        <div class="child-tab">
-          <input type="checkbox" name="sub-tab" id="tab-4">
-          <label for="tab-4">
-            <span>Sub Heading One</span>
-            <div class="icon"><i class="fas fa-plus"></i></div>
-          </label>
-          <div class="sub-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
-          </div>
-        </div>
-        <!-- Sub Heading Two -->
-        <div class="child-tab">
-          <input type="checkbox" name="sub-tab" id="tab-5">
-          <label for="tab-5">
-            <span>Sub Heading Two</span>
-            <div class="icon"><i class="fas fa-plus"></i></div>
-          </label>
-          <div class="sub-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit dolor. Utfacilis labore, exercitationem fuga minima a illo modi vitaerse dignissimos? Vero?</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Accordion Heading Four -->
-    <div class="parent-tab">
-      <input type="radio" name="tab" id="tab-6">
-      <label for="tab-6">
-        <span>Accordion Heading Four</span>
-        <div class="icon"><i class="fas fa-plus"></i></div>
-      </label>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
       </div>
     </div>
   </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Bedwars tournament
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		Creeper attack event
+	</button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
 <!--
 
 
