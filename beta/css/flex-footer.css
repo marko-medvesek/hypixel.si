@@ -24,7 +24,7 @@
 }
 footer{
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   background: #111;
 }
@@ -133,45 +133,6 @@ footer{
 .center .content .phone{
   margin: 15px 0;
 } */
-.right form .text{
-  font-size: 1.0625rem;
-  margin-bottom: 2px;
-  color: #656565;
-}
-.right form .msg{
-  margin-top: 10px;
-}
-.right form input, .right form textarea{
-  width: 100%;
-  font-size: 1.0625rem;
-  background: #151515;
-  padding-left: 10px;
-  border: 1px solid #222222;
-}
-.right form input:focus,
-.right form textarea:focus{
-  outline-color: #3498db;
-}
-.right form input{
-  height: 35px;
-}
-.right form .btn{
-  margin-top: 10px;
-}
-.right form .btn button{
-  height: 40px;
-  width: 100%;
-  border: none;
-  outline: none;
-  background: #f12020;
-  font-size: 1.0625rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: .3s;
-}
-.right form .btn button:hover{
-  background: #000;
-}
 .bottom center{
   padding: 5px;
   font-size: 0.9375rem;
@@ -190,7 +151,7 @@ footer{
 @media screen and (max-width: 900px) {
   footer{
     position: relative;
-    bottom: 0px;
+    bottom: 0;
   }
   .main-content{
     flex-wrap: wrap;
