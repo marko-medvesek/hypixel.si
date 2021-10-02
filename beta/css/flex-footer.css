@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  color: #d9d9d9;
+  /*color: #d9d9d9;*/
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -25,6 +25,7 @@
 footer{
   position: absolute;
   bottom: 0;
+  color: #d9d9d9;
   width: 100%;
   background: #111;
 }
@@ -91,6 +92,7 @@ footer{
 }
 .center .content .social a{
   padding: 0 2px;
+  color: #d9d9d9;
 }
 .center .content .social a span{
   height: 47px;
@@ -152,6 +154,7 @@ footer{
   footer{
     position: relative;
     bottom: 0;
+    color: #d9d9d9;
   }
   .main-content{
     flex-wrap: wrap;

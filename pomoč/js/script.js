@@ -40,7 +40,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = `https://hypixelslovenija.ga/pomoč/${selectData}`;
+        webLink = `https://hypixel.si/pomoč/${selectData}`;
         linkTag.setAttribute("href", webLink);
         linkTag.click();
     }
