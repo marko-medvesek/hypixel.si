@@ -1,9 +1,9 @@
 # HypixelSlovenija
 Hypixel Slovenija je community največjega Minecraft Serverja Hypixel.
 Namenjen je igranju z drugimi Slovenci, poleg tega pa tudi redno prirejamo Turnirje, Evente in imamo svoj Guild!
-Pridružite se nam v naš Discord https://discord.gg/wUncsXWUb7
+Pridružite se nam v naš Discord https://discord.gg/WdJRMvs2t4
 
-Website je bil ustvarjen enkrat poznega julija in to z namenom boljšega oglaševanja naše male skupnosti igralcev (ko pišem to 460).
+Website je bil ustvarjen enkrat poznega julija in to z namenom boljšega oglaševanja ter predstavitve naše male skupnosti igralcev (ko pišem to 460).
 https://hypixel.si/
 
 ### To do list:
