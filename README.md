@@ -1,4 +1,5 @@
 # HypixelSlovenija
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a444bdd2-a654-43f3-82fb-7837b4d3974b/deploy-status)](https://app.netlify.com/sites/hypixelslo/deploys)
 Hypixel Slovenija je community največjega Minecraft Serverja Hypixel.
 Namenjen je igranju z drugimi Slovenci, poleg tega pa tudi redno prirejamo Turnirje, Evente in imamo svoj Guild!
 Pridružite se nam v naš Discord https://discord.gg/WdJRMvs2t4
