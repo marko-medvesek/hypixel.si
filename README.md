@@ -1,11 +1,13 @@
 # HypixelSlovenija
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a444bdd2-a654-43f3-82fb-7837b4d3974b/deploy-status)](https://app.netlify.com/sites/hypixelslo/deploys)
-Hypixel Slovenija je community največjega Minecraft Serverja Hypixel.
-Namenjen je igranju z drugimi Slovenci, poleg tega pa tudi redno prirejamo Turnirje, Evente in imamo svoj Guild!
-Pridružite se nam v naš Discord https://discord.gg/WdJRMvs2t4
+Hypixel Slovenija je skupnost največjega Minecraft Serverja Hypixel.
+Namenjen je druženju in igranju z drugimi Slovenci, poleg tega pa tudi redno prirejamo Turnirje, Evente in imamo svoj Guild!
+Pridružite se nam v skupnost prek našega Discord serverja https://discord.gg/WdJRMvs2t4
 
-Website je bil ustvarjen enkrat poznega julija in to z namenom boljšega oglaševanja ter predstavitve naše male skupnosti igralcev (ko pišem to 460).
+Website je bil ustvarjen enkrat poznega julija 2021 in to z namenom boljšega oglaševanja ter predstavitve naše male skupnosti igralcev (ko pišem to 460).
 https://hypixel.si/
+in
+https://hypixelslovenija.ga
 
 ### To do list:
 
@@ -31,5 +33,5 @@ https://hypixel.si/
 Made by: SlovenianGamer
 Contact me:
   Discord: SlovenianGamer#0498
-  email: slovenian.gamer028@gmail.com
-  služben mail: info@hypixel.si
+  Email: slovenian.gamer028@gmail.com
+  Work mail: info@hypixel.si
