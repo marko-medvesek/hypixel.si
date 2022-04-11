@@ -108,7 +108,95 @@
     <br>
   <div class="obvestilo" style="background-color: rgb(255,255,255, 0.5); max-width: 600px; padding: 10px;border: solid 1px black;border-radius: 15px;">
       <h1>Obvestilo:</h1>
-      <h5>Skupnost začasno ugasnjena, zaradi neaktivnosti.</h5>
+      <h5>Skupnost začasno ugasnjena</h5>
+      <span class="count-down">
+         <span class="timer day">
+            <span class="count">
+               <span class="numb">
+                  00
+               </span>
+               <span class="text">
+                  Dni
+               </span>
+            </span>
+         </span>
+         <span class="clone">
+            |
+         </span>
+         <span class="timer hour">
+            <span class="count">
+               <span class="numb">
+                  00
+               </span>
+               <span class="text">
+                  Ur
+               </span>
+            </span>
+         </span>
+         <span class="clone">
+            |
+         </span>
+         <span class="timer min">
+            <span class="count">
+               <span class="numb">
+                  00
+               </span>
+               <span class="text">
+                  Minut
+               </span>
+            </span>
+         </span>
+         <span class="clone">
+            |
+         </span>
+         <span class="timer sec">
+            <span class="count">
+               <span class="numb">
+                  00
+               </span>
+               <span class="text">
+                  Sekund
+               </span>
+            </span>
+         </span>
+      </span>
+  <br>
+  1. junij 2021 ob 16:00
+</span>
+   <script>
+      const day = document.querySelector(".day .numb");
+      const hour = document.querySelector(".hour .numb");
+      const min = document.querySelector(".min .numb");
+      const sec = document.querySelector(".sec .numb");
+      var timer = setInterval(()=>{
+        var currentDate = new Date().getTime();
+        var launchDate = new Date('Jun 1, 2022 16:00:00').getTime();
+        var duration = launchDate - currentDate;
+        var days = Math.floor(duration / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((duration % (1000 * 60)) / 1000);
+        day.innerHTML = days;
+        hour.innerHTML = hours;
+        min.innerHTML = minutes;
+        sec.innerHTML = seconds;
+        if(days < 10){
+          day.innerHTML = '0' + days;
+        }
+        if(hours < 10){
+          hour.innerHTML = '0' + hours;
+        }
+        if(minutes < 10){
+          min.innerHTML = '0' + minutes;
+        }
+        if(seconds < 10){
+          sec.innerHTML = '0' + seconds;
+        }
+        if(duration < 0){
+          clearInterval(timer);
+        }
+      }, 1000);
+   </script>
       <img id="myImg" src="img/Obvestilo1.png" alt="Obvestilo 9.April 2022" style="width: 100%; padding: 5px; max-width: 500px">
   </div>
 
@@ -143,6 +231,12 @@ span.onclick = function() {
 </script>
   <br>
   <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   </div>
   </div>
   </div>
@@ -161,10 +255,10 @@ span.onclick = function() {
     <h2>Povezave</h3>
     <div class="content">
     <div class="social" style="">
-      <a href="https://discord.gg/WdJRMvs2t4"><span class="fab fa-discord" style="display: inline-block;"></span></a>
-      <a href="https://www.reddit.com/r/HypixelSlovenija/"><span class="fab fa-reddit" style="display: inline-block;"></span></a>
-      <a href="https://hypixel.paniek.de/guild/Hypixel%20Slovenija/"><span class="fas fa-server" style="display: inline-block;"></span></a>
-      <a href="https://www.youtube.com/channel/UC5diN1JFlf_iGeXkqKqX5HA?sub_confirmation=1"><span class="fab fa-youtube" style="display: inline-block;"></span></a>
+      <a href="https://discord.gg/WdJRMvs2t4" target="_blank"><span class="fab fa-discord" style="display: inline-block;"></span></a>
+      <a href="https://www.reddit.com/r/HypixelSlovenija/" target="_blank"><span class="fab fa-reddit" style="display: inline-block;"></span></a>
+      <a href="https://hypixel.paniek.de/guild/Hypixel%20Slovenija/" target="_blank"><span class="fas fa-server" style="display: inline-block;"></span></a>
+      <a href="https://www.youtube.com/channel/UC5diN1JFlf_iGeXkqKqX5HA?sub_confirmation=1" target="_blank"><span class="fab fa-youtube" style="display: inline-block;"></span></a>
     </div>
     </div>
     </div>
@@ -181,10 +275,10 @@ span.onclick = function() {
             </div> -->
             <div class="email">
               <span class="fas fa-envelope"></span>
-              <span class="text"><a class="link1" href="mailto:info@hypixel.si">info@hypixel.si</a></span>
+              <span class="text"><a class="link1" href="mailto:info@hypixel.si" target="_blank">info@hypixel.si</a></span>
               <br>
               <span class="fas fa-envelope"></span>
-              <span class="text"><a class="link1" href="mailto:hypixelslovenija@gmail.com">hypixelslovenija@gmail.com</a></span>
+              <span class="text"><a class="link1" href="mailto:hypixelslovenija@gmail.com" target="_blank">hypixelslovenija@gmail.com</a></span>
             </div>
           </div>
         </div>
