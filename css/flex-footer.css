@@ -23,7 +23,7 @@
   color: #202020;
 }
 footer{
-  position: relative;
+  position: absolute;
   bottom: 0;
   color: #d9d9d9;
   width: 100%;
