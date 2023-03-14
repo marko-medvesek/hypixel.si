@@ -49,9 +49,6 @@
             -webkit-user-select: none;
             -ms-user-select: none;
         }
-        a.nav-link {
-            cursor: not-allowed;
-          }
       </style>
     </head>
     <body>
@@ -71,173 +68,43 @@
                   <a class="nav-link nav-active active" href="" style="padding: 5px 10px; cursor: pointer !important;">Domov <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#discord.html" style="padding: 5px 10px;">Discord</a>
+                  <a class="nav-link" href="discord.html" style="padding: 5px 10px;">Discord</a>
                 </li>
       		<li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 5px 10px;">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 5px 10px;">
                     Eventi
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width:30%;">
-                    <a class="dropdown-item" href="#turnir1.html">Turnir 1</a>
-                    <a class="dropdown-item" href="#turnir2.html">Turnir 2</a>
+                    <a class="dropdown-item" href="turnir1.html">Turnir 1</a>
+                    <a class="dropdown-item" href="turnir2.html">Turnir 2</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#events.html">vsi turnirji</a>
+                    <a class="dropdown-item" href="events.html">vsi turnirji</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#guild.html" style="padding: 5px 10px;">Guild</a>
+                  <a class="nav-link" href="guild.html" style="padding: 5px 10px;">Guild</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#osebje.html" style="padding: 5px 10px;">Osebje</a>
+                  <a class="nav-link" href="osebje.html" style="padding: 5px 10px;">Osebje</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#pomoč" style="padding: 5px 10px;">Pomoč</a>
+                  <a class="nav-link" href="/pomoč" style="padding: 5px 10px;">Pomoč</a>
                 </li>
               </ul>
             </div>
       </nav>
   	</header>
   <br>
-  <div align="center" >
-  <!--<h1 style="color:black;">Dobrodošli</h1>-->
+  <div align="center">
+  <h1 style="color:black;">Dobrodošli na naši spletni strani!</h1>
   <div class="wrapper">
     <!--
     <div class="iframe-container">
       <iframe src="https://www.youtube.com/embed/KWBlsqvQKB" title="YouTube video player"  allowfullscreen></iframe>
     </div>  -->
-    <br>
-  <div class="obvestilo" style="background-color: rgb(255,255,255, 0.5); max-width: 600px; padding: 10px;border: solid 1px black;border-radius: 15px;">
-      <h1>Obvestilo:</h1>
-      <h5>Skupnost začasno ugasnjena</h5>
-      <span class="count-down">
-         <span class="timer day">
-            <span class="count">
-               <span class="numb">
-                  00
-               </span>
-               <span class="text">
-                  Dni
-               </span>
-            </span>
-         </span>
-         <span class="clone">
-            |
-         </span>
-         <span class="timer hour">
-            <span class="count">
-               <span class="numb">
-                  00
-               </span>
-               <span class="text">
-                  Ur
-               </span>
-            </span>
-         </span>
-         <span class="clone">
-            |
-         </span>
-         <span class="timer min">
-            <span class="count">
-               <span class="numb">
-                  00
-               </span>
-               <span class="text">
-                  Minut
-               </span>
-            </span>
-         </span>
-         <span class="clone">
-            |
-         </span>
-         <span class="timer sec">
-            <span class="count">
-               <span class="numb">
-                  00
-               </span>
-               <span class="text">
-                  Sekund
-               </span>
-            </span>
-         </span>
-      </span>
   <br>
-  1. september 2021 ob 16:00
-</span>
-   <script>
-      const day = document.querySelector(".day .numb");
-      const hour = document.querySelector(".hour .numb");
-      const min = document.querySelector(".min .numb");
-      const sec = document.querySelector(".sec .numb");
-      var timer = setInterval(()=>{
-        var currentDate = new Date().getTime();
-        var launchDate = new Date('Sep 1, 2022 16:00:00').getTime();
-        var duration = launchDate - currentDate;
-        var days = Math.floor(duration / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((duration % (1000 * 60)) / 1000);
-        day.innerHTML = days;
-        hour.innerHTML = hours;
-        min.innerHTML = minutes;
-        sec.innerHTML = seconds;
-        if(days < 10){
-          day.innerHTML = '0' + days;
-        }
-        if(hours < 10){
-          hour.innerHTML = '0' + hours;
-        }
-        if(minutes < 10){
-          min.innerHTML = '0' + minutes;
-        }
-        if(seconds < 10){
-          sec.innerHTML = '0' + seconds;
-        }
-        if(duration < 0){
-          clearInterval(timer);
-        }
-      }, 1000);
-   </script>
-      <img id="myImg" src="img/Obvestilo1.png" alt="Obvestilo 9.April 2022" style="width: 100%; padding: 5px; max-width: 500px">
   </div>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
 </div>
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-</script>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  </div>
   </div>
   </div>
   <footer>
